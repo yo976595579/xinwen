@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/science.css" />
+	</head>
+
+	<body>
+		<div class="navbar navbar-default">
+			<!--将导航栏设置为默认主题-->
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand"></a>
+				</div>
+
+				<!--for="toggle-checkbox"将input映射到MENU上    class="visible-xs-inline-block  MENU只有在小尺寸下显示"-->
+				<label id="toggle-label" class="visible-xs-inline-block" for="toggle-checkbox">MENU</label>
+				<input class="hidden" id="toggle-checkbox" type="checkbox">
+
+				<div class="hidden-xs">
+					<!--在最小的时候隐藏-->
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="domestic.html">国际</a>
+						</li>
+						<li class="active">
+							<a href="science.html">科技</a>
+						</li>
+						<li>
+							<a href="military.html">军事</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="login.html">登录</a>
+						</li>
+						<li>
+							<a href="signup.html">注册</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container">
+
+			<div class="rows">
+				<div class="col-sm-2">
+					<!--新浪纵测的实现-->
+					<div class="line"><span class="text"><a href="#">新浪纵测</a></span></div>
+					<div class="picture">
+						<a href="#"><img src="img/nak.jpg" /></a>
+					</div>
+					<div class="media-body">
+
+						<ul class="nav navbar-nav">
+							<a href="#">
+								<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>南卡Runner Pro3骨传导耳机</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>应用丰富，表现全能---TicWatch Pro X测评</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>40W打造超实用的智能家，科技改变生活</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>2021未来科学大奖周-科学峰会多位院士开讲</li>
+							</a>
+
+						</ul>
+
+					</div>
+				</div>
+
+				<!--轮播-->
+				<div class="col-sm-7">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="img/c2.jpg" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/c.jpg" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/c3.png" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+
+				</div>
+				<div class="col-sm-3">
+
+					<div class="side-bar-card">
+						<div class="card-title hidden-xs">
+							<div class="col-xs-12 ">
+								<div class="bg-info">
+									<ul class="nav navbar-nav">
+										<li id="title">创事记</li>
+									</ul>
+									<ul class="nav navbar-nav navbar-right">
+										<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="left" title="可以进行投稿">
+											<li id="title">
+
+												<img src="img/按钮.png" /></label>
+											</li>
+										</a>
+									</ul>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="list">
+								<div class="items  clearfix">
+									<div class="col-xs-4">
+										<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="奇偶派"><img class="img-circle" src="img/y1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<div class="theme">
+											<p>
+												<a href="#">国产手机，困在高通里</a>
+											</p>
+											<br />
+											<p>
+												<a href="#">奇偶派</a>
+											</p>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="items  clearfix">
+									<div class="col-xs-4">
+										<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="远川研究所"><img class="img-circle" src="img/y2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<div class="theme">
+											<p>
+												<a href="#">创办11年来最大规模裁员!爱奇艺还有机会吗?</a>
+											</p>
+											<p>
+												<a href="#">远川研究所</a>
+											</p>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="items  clearfix">
+									<div class="col-xs-4">
+										<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="燃次元"><img class="img-circle" src="img/y3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<div class="theme">
+											<p>
+												<a href="#">要2022年了，我还住在长租公寓</a>
+											</p>
+											<p>
+												<a href="#">燃次元</a>
+											</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="items  clearfix">
+									<div class="col-xs-4">
+										<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="光子星球"><img class="img-circle" src="img/4.png" /></a>
+									</div>
+									<div class="col-xs-8">
+										<div class="theme">
+											<p>
+												<a href="#">小米经销商，为汽车梦想窒息</a>
+											</p>
+											<p>
+												<a href="#">光子星球</a>
+											</p>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="arrow">
+				<div class="col-sm-2">
+
+					<div class="mycontent3 hidden-xs hidden-sm">
+						<div class="container-fluid">
+
+							<div class="row">
+
+								<!-- Nav tabs -->
+								<ul class="nav nav-tabs" role="tablist">
+									<!-- 导航区 -->
+									<li role="presentation" class="active">
+										<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+											<h4>直播</h4></a>
+									</li>
+									<li role="presentation">
+										<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+											<h4>后厂村</h4></a>
+									</li>
+
+								</ul>
+
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<!-- 面板区 -->
+									<div role="tabpanel" class="media tab-pane fade in active " id="home">
+										<div class="media">
+											<a href="#"><img class="center-block" src="img/zb.jpg" /></a>
+										</div>
+										<div class="media-body">
+
+											<ul class="nav navbar-nav">
+												<a href="#">
+													<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>2021未来科学大奖周-科学峰会多位院士开讲</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>财之道第八期:扫地机器人，新融资风口还能吹多久?</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>网易云音乐拟于12月2日挂牌上市估值预计超395亿港元</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>向好奇心致敬:2021菠萝科学奖首次无接触自助式颁奖晚</li>
+												</a>
+
+											</ul>
+
+										</div>
+
+									</div>
+
+									<div role="tabpanel" class="tab-pane fade" id="profile">
+										<div class="media">
+											<a href="#"><img class="center-block" src="img/xm.png" /></a>
+										</div>
+										<div class="media-body">
+
+											<ul class="nav navbar-nav">
+												<a href="#">
+													<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>小米11开箱评测</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>OPPO Reno5 Pro+上手体验</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>ThinkPad X1 Nano评测</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>华为智选车载智慧屏上手</li>
+												</a>
+												<a href="#">
+													<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>大疆口袋智能小相机Pocket 2上手</li>
+												</a>
+												<a href="#">
+													<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>九号卡丁车、X1、亩斯美容仪等着你</li>
+												</a>
+
+											</ul>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					
+
+					<div class="lines"><span class="text"><a href="#">科学大家</a></span></div>
+					<div class="picture">
+						<a href="#"><img src="img/kex.jpg" /></a>
+					</div>
+					<div class="media-body">
+
+						<ul class="nav navbar-nav">
+							<a href="#">
+								<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>宇亩的幽灵:探索暗物质的前世今生</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>近25年来，“超级病毒”为何多数源于蝙蝠?</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>银河系为何能高速旋转?找到宇亩幽灵暗物质就能解答</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>元宇亩专区│|科技巨头竞相入局是新风口还是新泡沫?</li>
+							</a>
+
+						</ul>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-sm-7">
+				<div class="media-list">
+
+					<table class="table table-responsive ">
+						<thead>
+							<tr>
+								<th>
+									<h4>01</h4></th>
+								<th>
+									<h4><a href="#">被判赔1.67亿格力与奥克斯专利战再起</a>
+					&nbsp;&nbsp;&nbsp;<li></li>
+					<a href="#">它们已经打了78起官司</a></h4> </th>
+
+							</tr>
+
+							<tr>
+								<th>
+									<h4>02</h4></th>
+								<th>
+									<h4><a href="#">燧原科技发布新一代“邃思”AI推理芯片:12nm制程</a></h4></th>
+
+							</tr>
+							<tr>
+								<th>
+									<h4>03</h4></th>
+								<th>
+									<h4><a href="#">年均故障2.4次!亚马逊AWS宕机频发，如何避免“数据伤害”?</a></h4></th>
+
+							</tr>
+							<tr>
+								<th>
+									<h4>04</h4></th>
+								<th>
+									<h4><a href="#">央视网评老教授状告中国知网:借鸡生蛋生意该改改了!</a></h4></th>
+							</tr>
+							<tr>
+								<th>
+									<h4>05</h4></th>
+								<th>
+									<h4><a href="#">谷歌宣布向全体员工发放1600美元现金奖金:包括外包员工</a></h4></th>
+							</tr>
+
+							<tr>
+								<th>
+									<h4>06</h4></th>
+								<th>
+									<h4><a href="#">lnstagram CEO向美国会作证:拒绝承诺不会开发儿童版应用</a></h4></th>
+							</tr>
+							<tr>
+								<th>
+									<h4>07</h4></th>
+								<th>
+									<h4><a href="#">继台积电与三星之后，SK海力士也将考虑赴美建晶圆厂?</a></h4></th>
+							</tr>
+						</thead>
+					</table>
+
+				</div>
+
+				<div class="row  hidden-xs hidden-sm">
+
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs " role="tablist">
+						<!-- 导航区 -->
+						<li role="presentation" class="active">
+							<a href="#hotspot" aria-controls="hotspot" role="tab" data-toggle="tab">
+								<h4>热点</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#Genesis" aria-controls="Genesis" role="tab" data-toggle="tab">
+								<h4>产业</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#industry" aria-controls="industry" role="tab" data-toggle="tab">
+								<h4>创事纪</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#phone" aria-controls="phone" role="tab" data-toggle="tab">
+								<h4>手机</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#Digital" aria-controls="Digital" role="tab" data-toggle="tab">
+								<h4>数码</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#Start" aria-controls="Start" role="tab" data-toggle="tab">
+								<h4>创业</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#explore" aria-controls="explore" role="tab" data-toggle="tab">
+								<h4>探索</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#survey" aria-controls="survey" role="tab" data-toggle="tab">
+								<h4>纵测</h4></a>
+						</li>
+						<li role="presentation">
+							<a href="#Apple" aria-controls="Apple" role="tab" data-toggle="tab">
+								<h4>苹果汇</h4></a>
+						</li>
+
+					</ul>
+
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<!-- 面板区 -->
+						<div role="tabpanel" class="media tab-pane fade in active " id="hotspot">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">思摩尔国际原定于12月底的新一代陶瓷雾化芯技术发布会延期</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>20:35</span>⋅
+											<sapn>趣闻陶瓷思摩尔国际</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">说出来你可能不信，阿里被腾讯打了个43比5</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>14:28</span>⋅
+											<sapn>电竞腾讯美团</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">【方正电子&科技】三安光电:中国的Wolfspeed正在启航</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>08:14</span>⋅
+											<sapn>三安光电方正证券</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">产业智能化提速，AI勾勒商业灿烂图景</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>22:45</span>⋅
+											<sapn>供应商萨摩耶科创人工智能数字化</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">深圳独角兽大规模欠薪!创始人深夜感叹:人生至暗时刻</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>20:41</span>⋅
+											<sapn>独角兽融资</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/r6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">如何重新定义“中国智造”﹖桂文彬、孙烈冰、王珏、王萍共话传统制造与新技术的融合</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>20:36</span>⋅
+											<sapn>智慧城市新技术智能制造</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="Genesis">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">Adobe拟收购社交媒体营销公司ContentCal</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>21:21</span>⋅
+											<sapn>Adobe ContentCal社交媒体营销公司</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">什么信号?意大利绕过欧盟，对亚马逊罚款12.8亿美元</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>21:19</span>⋅
+											<sapn>亚马逊意大利罚款</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">突遭下架!豆瓣今年已被罚20次共计900万元,评论功能已暂停</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>21:07</span>⋅
+											<sapn>豆瓣下架</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">"OPPO官宣自研芯片，国产手机四巨头齐聚芯片赛场</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>21:06</span>⋅
+											<sapn>OPPO自研芯片国产手机</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">裁员进行时，快手寒冬将至?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>20:48</span>⋅
+											<sapn> 快手</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cc6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">现代汽车计划2028年前在印度投资400亿卢布，推出6款电动汽车</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>20:41</span>⋅
+											<sapn> 现代汽车电动汽车印度</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="industry">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">十字路口的年轻人，选大厂、国企还是公务员?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:19</span>⋅
+											<sapn>私企公务员互联网国企</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">谷歌2021年用户搜索“热词榜”出炉:新冠、狗狗币、欧洲杯等上榜</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>13:06</span>⋅
+											<sapn>新冠疫苗欧洲杯新冠肺炎</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">“骗补贴”?不能按时交车?小鹏的年终劫</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>12:32</span>⋅
+											<sapn>小鹏汽车造车新势力供应链</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">泡泡玛特越来越“重”潮玩需要新故事</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>08:39</span>⋅
+											<sapn>泡泡玛特盲盒潮玩</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">爱奇艺被曝大裁员被裁者转投短视频</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>08:34</span>⋅
+											<sapn>爱奇艺短视频长视频裁员</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/j6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">苹果出事了，十年来最严重的一次!</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>21:43</span>⋅
+											<sapn>苹果 iPhone13 iPhone</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="phone">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">Originos Ocean发布会</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>18:30</span>⋅
+											<sapn>vivo Originos</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">苹果tvOS 15.2 RC预览版发布</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:55</span>⋅
+											<sapn>苹果apple tv</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">索尼技术日公布八项“黑科技”</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:49</span>⋅
+											<sapn>索尼分辨率VR图像</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">郭明琪预测:苹果AR/MR头显采用关键人机接口设计</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:43</span>⋅
+											<sapn>设计AR iPhone郭明簇苹果</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">小米MIX FOLD 2曝光:内外屏均支持高刷新率</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:26</span>⋅
+											<sapn>小米MIX FOLD 2</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">手感更轻薄，vivo被忽视的旗舰手机，了解一下</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>12:50</span>⋅
+											<sapn>vivo</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="Digital">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">即拆即装，极速切换:Ulanzi小隼快装板</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>13:25</span>⋅
+											<sapn>Ulanzi 摄影云台</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">4K 60P 10bit视频索尼A6600后续产品预测</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>07:03</span>⋅
+											<sapn>索尼A A6600</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">高速高画质的专业机速度专微佳能EOS R3评测</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>06:57</span>⋅
+											<sapn>佳能EOS R3</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">全画幅新基准2.0索尼Alpha 7 lV评测</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>06:50</span>⋅
+											<sapn>索尼Alpha 7 lV</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">尼克尔Z24-120mm f4 S评测:天涯头来了!</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>06:42</span>⋅
+											<sapn>配件尼康镜头</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/m6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">徕卡M11将有“重大”突破:竟内置储存空间?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>06:38</span>⋅
+											<sapn>徕卡存储卡空间设计</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="Start">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">XSKY星辰天合宣布完成4亿元F轮融资源码资本参投</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>10:18</span>⋅
+											<sapn>源码资本融资XSKY星辰天合</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">北京PE/VC份额转让试点一年交易规模达10.39亿元</a>
+										<div class="info">
+											<span>12月7日</span>⋅
+											<span>08:05</span>⋅
+											<sapn> PE VC私募股权</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">商汤IPO:估值130亿美元，涉及近40家机构，但未必人人赚钱</a>
+										<div class="info">
+											<span>12月2日</span>⋅
+											<span>16:19</span>⋅
+											<sapn> 商汤科技独角兽融瓷IPO人工智能</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">比亚迪冲高梦:前路未知，变数依旧</a>
+										<div class="info">
+											<span>12月2日</span>⋅
+											<span>14:39</span>⋅
+											<sapn>比亚迪高端品牌车企</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">书店活不下去，但「笃屋」可以</a>
+										<div class="info">
+											<span>12月1日</span>⋅
+											<span>17:11</span>⋅
+											<sapn>网红书店芎屋书店会员体系</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/cy6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">中国企业界的年度思考:重估边界</a>
+										<div class="info">
+											<span>12月1日</span>⋅
+											<span>13:37</span>⋅
+											<sapn>科技创新企业家</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div role="tabpanel" class="tab-pane fade" id="explore">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">老兵不死，哈勃太空望远镜重新上线!</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>11:27</span>⋅
+											<sapn>哈勃NASA</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">美“专家”大忽悠：中国这种攻击会导致大停电，“造成90%人口死亡”</a>
+										<div class="info">
+											<span>环球网</span>⋅
+											<span>20k阅读</span>⋅
+											<sapn>7分钟前</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">我们知道时间将如何结束，但时间是如何开始的?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>11:21</span>⋅
+											<sapn>宇亩</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">灵魂出窍?其实也没啥大不了~</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>10:14</span>⋅
+											<sapn>灵魂出窍</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">如果外星人是硅基生命，要如何寻找它们?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>09:31</span>⋅
+											<sapn>硅基生命</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/t6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">把目光移开片刻，也许更有利于交流?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>09:52</span>⋅
+											<sapn>交流</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="survey">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">即拆即装，极速切换:Ulanzi小隼快装板</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>13:25</span>⋅
+											<sapn>Ulanzi摄影云台</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">用了1个月，分享下感受，OPPO Watch 2体验</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>16:01</span>⋅
+											<sapn>微信OPPO</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z3.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">三亚度假，应该如何选湾选酒店?</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>07:46</span>⋅
+											<sapn>三亚市</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">远程控制+开机一步到位，向日葵智能插座C2</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>17:12</span>⋅
+											<sapn>电脑电器智能插座</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">万万没想到，它也会翻车?双十二猫粮囤货</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>12:31</span>⋅
+											<sapn>美国</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/z6.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">绝佳游戏伴侣，莫比乌斯EX2710S显示器体验</a>
+										<div class="info">
+											<span>12月8日</span>⋅
+											<span>09:59</span>⋅
+											<sapn>XBOX</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="Apple">
+							<div class="news-list">
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/p1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">涨价，苹果宣布土耳其App Store即将实行价格调整</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>08:45</span>⋅
+											<sapn>苹果 App Store</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/p2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">mini版被砍掉，曝iPhone 14 Pro/Pro Max采用打孔显示屏</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>09:01</span>⋅
+											<sapn>苹果iPhone</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj2.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">苹果tvOs 15.2 RC预览版发布</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:55</span>⋅
+											<sapn>苹果apple tv</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj4.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">郭明琪预测:苹果AR/MR头显采用关键人机接口设计</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>15:43</span>⋅
+											<sapn>设计AR iPhone郭明麒苹果</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/p1.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">iPhone 14系列或将采用挖孔屏设计新晋旗舰值得期待</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>14:44</span>⋅
+											<sapn>iPhone挖孔屏</sapn>
+										</div>
+									</div>
+								</div>
+
+								<div class="new-list-item clearfix">
+									<!--clearfix清除浮动-->
+									<div class="col-xs-4">
+										<a href="#"><img src="img/sj5.jpg" /></a>
+									</div>
+									<div class="col-xs-8">
+										<a href="#" class="title">郭明琪预测:苹果AR/MR头显采用关键人机接口设计</a>
+										<div class="info">
+											<span>今天</span>⋅
+											<span>5:43</span>⋅
+											<sapn>设计AR iPhone郭明麒苹果</sapn>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+			<div class="col-sm-3">
+
+				<div class="side-bar-card">
+
+					<div class="card-body">
+						<div class="list">
+							<div class="items  clearfix">
+								<div class="col-xs-4">
+									<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="DoNews"><img class="img-circle" src="img/y6.jpg" /></a>
+								</div>
+								<div class="col-xs-8">
+									<div class="theme">
+										<p>
+											<a href="#">被点名虚假宣传的企业们，赚钱姿势有多“骚”?</a>
+										</p>
+										<p>
+											<a href="#">DoNews</a>
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="items  clearfix">
+								<div class="col-xs-4">
+									<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="开菠萝财经"><img class="img-circle" src="img/y7.jpg" /></a>
+								</div>
+								<div class="col-xs-8">
+									<div class="theme">
+										<p>
+											<a href="#">网红“骗粉”新套路:假装在底层</a>
+										</p>
+										<p>
+											<a href="#">开菠萝财经</a>
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="items  clearfix">
+								<div class="col-xs-4">
+									<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="开菠萝财经"><img class="img-circle" src="img/y3.jpg" /></a>
+								</div>
+								<div class="col-xs-8">
+									<div class="theme">
+										<p>
+											<a href="#">网红“骗粉”新套路:假装在底层</a>
+										</p>
+										<p>
+											<a href="#">开菠萝财经</a>
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="items  clearfix">
+								<div class="col-xs-4">
+									<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="智东西"><img class="img-circle" src="img/y5.jpg" /></a>
+								</div>
+								<div class="col-xs-8">
+									<div class="theme">
+										<p>
+											<a href="#">Mobileye掉队，一个时代落慕了</a>
+										</p>
+										<p>
+											<a href="#">智东西</a>
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+						<div class="items  clearfix">
+								<div class="col-xs-4">
+									<a href="#" data-trigger="hover" data-toggle="tooltip" data-placement="right" title="雷科技网"><img class="img-circle" src="img/y.jpg" /></a>
+								</div>
+								<div class="col-xs-8">
+									<div class="theme">
+										<p>
+											<a href="#">苹果出事了，十年来最严重的一次!</a>
+										</p>
+										<p>
+											<a href="#">雷科技网</a>
+										</p>
+									</div>
+
+								</div>
+							</div>
+
+						
+						</div>
+					</div>
+
+				</div>
+				
+				<div class="side-bar-card">
+						<div class="card-title">
+							<div class="line"><span class="text"><a href="#">热门新闻</a></span></div>
+						</div>
+						<div class="card-body">
+							<div class="list">
+								<div class="item">
+									<a href="#" class="title">NBA-正视频直播国王vs湖人洛杉矶加时队能否保持全胜 </a>
+									<div class="desc">20k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">新冠新型变异毒株Omicron：新的“毒王”，比德尔塔还可怕 </a>
+									<div class="desc">20k阅读 2k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">“澳门小赌王”洗米华被批捕，洗米嫂对消息一脸懵，回复粉丝显焦虑 </a>
+									<div class="desc">15k阅读 1.5k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">发视频炮轰后，司马南又发文：这就算是联想的回应吗？ </a>
+									<div class="desc">10k阅读 1k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">新型变异毒株已出现，传染性远超“德尔塔”，突变数量是其2倍 </a>
+									<div class="desc">25k阅读 5k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">全球多地出现变种新冠病毒感染 张伯礼：研究特异性抗病毒药物 </a>
+									<div class="desc">12k阅读 2k评论</div>
+								</div>
+								<div class="item">
+									<a href="#" class="title">古装电影的天花板，40年前我们就拍出来了，可惜鲜有人知！ </a>
+									<div class="desc">10k阅读 1k评论</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				
+			</div>
+
+		</div>
+
+		</div>
+		<div class="footer">
+			Copyright © 1998 - 2021 Tencent. All Rights Reserved
+		</div>
+	</body>
+
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	<script src="js/sicence.js" type="text/javascript"></script>
+
+</html>

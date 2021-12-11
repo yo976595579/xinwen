@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="css/military.css"/>
+	</head>
+	<body>
+		<div class="navbar navbar-default">			<!--将导航栏设置为默认主题-->
+			<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand"></a>
+			</div>
+			
+			<!--for="toggle-checkbox"将input映射到MENU上    class="visible-xs-inline-block  MENU只有在小尺寸下显示"-->
+			<label id="toggle-label" class="visible-xs-inline-block" for="toggle-checkbox">MENU</label>
+            <input class="hidden" id="toggle-checkbox" type="checkbox">
+            
+		<div class="hidden-xs">       <!--在最小的时候隐藏-->
+        <ul class="nav navbar-nav">  
+          <li><a href="index.html">首页</a></li>
+          <li><a href="domestic.html">国际</a></li>
+          <li><a href="science.html">科技</a></li>
+          <li class="active"><a href="military.html">军事</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html">登录</a></li>
+          <li><a href="signup.html">注册</a></li>
+        </ul>
+      </div>
+      
+	</div>
+    </div>
+		
+		<div class="container">
+			<div class="begin hidden-xs hidden-sm">
+				<!--轮播-->
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="img/zg4.png" alt="...">
+						<div class="carousel-caption">
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/zg2.png" alt="...">
+						<div class="carousel-caption">	
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/zg1.png" alt="...">
+						<div class="carousel-caption">
+				
+						</div>
+					</div>
+				</div>
+				</div>
+				
+			</div>
+	    <div class="container-fluid">
+		<div class="row ">
+	    	
+		<div class="col-md-2 ">
+			
+				<div class="hidden-xs list-group">
+				<a href="#" class="list-group-item newactive">这些圈子都在看什么</a>
+				</div>
+			<div class="hidden-xs list-group side-bar">	
+				<a href="#" class="list-group-item text-center">NBA速报</a>
+				<a href="#" class="list-group-item text-center">游戏战队</a>
+				<a href="#" class="list-group-item text-center">新款车型</a>
+				<a href="#" class="list-group-item text-center">搞笑萌宠</a>
+				<a href="#" class="list-group-item text-center">爱豆动态</a>
+			
+			</div>
+		</div>
+		
+		<div class="col-md-6">
+			<div class="row">
+				<div id="carousel-example" class="carousel slide hidden-xs hidden-sm" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel-example" data-slide-to="1"></li>
+							<li data-target="#carousel-example" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img src="img/jun.png" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/jun1.jpeg" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+							<div class="item">
+								<img src="img/jun3.png" alt="...">
+								<div class="carousel-caption">
+								</div>
+							</div>
+						</div>
+						<!-- Controls -->
+						<a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+			</div>
+			
+		</div>
+		
+		<div class="col-md-4">
+			<div class="side-bar-card">
+				<div class="line"><span class="text"><a href="#">新浪纵测</a></span></div>
+				<div class="card-body">
+					<div class="list">
+						<div class="item  clearfix">
+							<div class="col-xs-5 no-padding-h">
+								<a href="#"><img src="img/js.jpg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">美借口“中国扩大在柬军事存在”对柬埔寨武器禁运</a></div>
+						
+					</div>
+						</div>
+						
+						<div class="item  clearfix">
+							<div class="col-xs-5 no-padding-h">
+								<a href="#"><img src="img/js1.jpg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">台专家称075型舰对台“威胁”比航母还大，专家:正常行动，无需过度解读</a></div>
+						
+					</div>
+						</div>
+						
+						<div class="item  clearfix">
+							<div class="col-xs-5 no-padding-h">
+								<a href="#"><img src="img/js3.jpg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">印军将领坠机身亡怪中国?印学者抛出阴谋论，胡锡进:此乃天意</a></div>
+						
+					</div>
+						</div>
+						
+						<div class="item  clearfix">
+							<div class="col-xs-5 no-padding-h">
+								<a href="#"><img src="img/js4.jpg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">12保1?印参谋长第—时间没死，还能自己蠕动，疑似拉老婆当肉垫</a></div>
+						
+					</div>
+						</div>
+						
+						<div class="item  clearfix">
+							<div class="col-xs-5 no-padding-h">
+								<a href="#"><img src="img/js5.jpeg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">为什么要大造航母而不是潜艇?俄专家终于说明白，作战效率完胜</a></div>
+						
+					</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	    </div>
+		<div class="row">
+			<div class="titles">军情动态</div>
+			<div class="media-body">
+				
+			
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/jq1.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">巴基斯坦传来好消息，2300吨潜艇开工建造，感谢中方鼎力相助 </a>
+				<div class="desc">第一军情·5小时前·19.7万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+              <a href="#"><img src="img/jq5.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">12月9日,香港出现UFO?美国被巴基斯坦扇脸;印军参谋长又叫嚣了 </a>
+				<div class="desc">第一军情·18小时前·30.4万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"> <img src="img/jq2.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">紧跟美国，英国“不派官员”参加冬奥，明年与中方重启经济对话</a>
+				<div class="desc">国防时报看·6小时前·41.3万阅读 </div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/jq6.jpg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">中国花3000万从澳洲买废船，被嘲笑是冤大头，如今让西方后悔不已</a>
+				<div class="desc">春秋讲武堂·昨天11:58·2.6万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/jq3.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">为什么要大造航母而不是潜艇?俄专家终于说明白，作战效率完胜</a>
+				<div class="desc">瞳眼天下·3小时前·9.4万阅读 </div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/jq7.jpg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">二战意大利附体?印度国防参谋坠机身亡，俄制直升机“立下大功”</a>
+				<div class="desc">浩汉防务·7小时前·3572阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/jq4.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">偷袭珍珠港日本人不是一个!9年前美航母就干过了，舰队被全歼 </a>
+				<div class="desc">幂谈天下·5小时前·2714阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/qj8.jpg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">外媒:澳军方拟放弃欧洲直升机改用美国货，防长又扯上所谓“中国威胁” </a>
+				<div class="desc">第一军情·6小时前·20万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		
+  		</div>
+		</div>	
+		<div class="row">
+			<div class="titles">历史风云</div>
+			<div class="media-body">
+				
+			
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy1.jpg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">里根时期的中情局长，是里根信任的人，因何最后被迫离职? </a>
+				<div class="desc">泥腿看客·19小时前·2700阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+              <a href="#"><img src="img/fy2.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">建—座贞节牌坊需30两银子，修众多牌坊是难题，清朝皇帝如此解决</a>
+				<div class="desc">历史解密坊·3天前·1.0万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"> <img src="img/fy3.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">历史上有什么大将死于无名小卒之手?1867年11月19日东捻受挫赣榆</a>
+				<div class="desc">萨沙讲史堂·昨天08:31·70.1万阅读 </div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy4.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">21岁能干什么?大都是人生刚起步，但林彪21岁当了团长</a>
+				<div class="desc">泥腿看客·4天前·1.7万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy5.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">华野三虎将，在解放后都担任什么职务?</a>
+				<div class="desc">大熊历史观·21小时前·5633阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy6.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">明朝最神秘的小人物:朱元璋写信口呼兄长，说自己“偶然做皇帝”</a>
+				<div class="desc">快哉风王浩·2021.11.27·3.4万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		<div class="col-md-3">
+  			
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy7.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">哪三支王牌劲旅，参加抗美援朝战争，却没有入选志愿军十大王牌军</a>
+				<div class="desc">大熊历史观·前天06:59-1.8万阅读</div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			<div class="thumbnail">
+             <a href="#"><img src="img/fy8.jpeg" alt="..."></a>
+             <div class="caption">
+        
+             <div class="card-body">
+				<div class="list">
+				<div class="items">
+				<a href="#" class="title">红军时期，有功于开疆辟土，建设根据地的红军八大名将都有谁?</a>
+				<div class="desc">大熊历史观·2021.11.29·5.2万阅读 </div>
+				</div>				
+				</div>
+			</div>
+    		</div>
+    		</div>
+  			
+  			
+  		</div>
+  		
+  		</div>
+		</div>	
+		
+		<div class="row">
+		<div class="titles">军情视频</div>
+		<div class="media-body">
+  		<div class="col-md-4">
+  			
+  			<div class="panel panel-default">
+				
+				<div class="panel-body">
+				<video width="100%" src="cp/断交.mp4" controls="controls"  class="myvideo" loop="loop">浏览器不支持video标签</video>
+				</div>
+				<div class="panel-heading">尼加拉瓜与台“断交”，苏贞昌又污蔑大陆，名嘴:美国被狠狠打脸</div>
+				</div>
+  			
+  			
+			
+  			
+  			
+  			
+  		</div>
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+				
+				<div class="panel-body">
+				<video width="100%" src="cp/紧急事件.mp4" controls="controls"  class="myvideo" loop="loop">浏览器不支持video标签</video>
+				</div>
+				<div class="panel-heading">紧急事件!波兰军队向白俄罗斯边防开火,战争要来了?</div>
+				</div>
+  			
+  		</div>
+  		<div class="col-md-4">
+  			<div class="panel panel-default">
+				
+				<div class="panel-body">
+				<video width="100%" src="cp/训练.mp4" controls="controls"  class="myvideo" loop="loop">浏览器不支持video标签</video>
+				</div>
+				<div class="panel-heading">像打仗—样训练,像训练—样打仗!直击火箭炮分队跨昼夜实弹射击</div>
+				</div>
+  		</div>
+  		</div>
+		</div>
+		
+		<div class="row hidden-sm hidden-xs">
+			<div class="titles">军备武器</div>
+			<div class="media-body">
+				<div class="col-md-4">
+					<div class="nav" style="border-bottom:3px solid #D5D5D5; position: relative">
+						<ul class="nav navbar-nav">  
+          					<li><span id="title">海战武器</span></li>
+        				</ul>
+        				<ul class="nav navbar-nav navbar-right" >
+          				 <li style="position: absolute; right: 8px;"><span><a href="#">更多>></a> </span></li>
+        				</ul>
+					</div>
+				<div class="card-body">
+					<div class="list">
+						<div class="item">
+							<div class="col-xs-5">
+								<a href="#"><img src="img/h1.jpeg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">越南昔日最大战舰退役，专门对付潜艇却没装1枚导..</a></div>
+						<div class="desc">尤里今天不·37.2万阅读</div>
+						
+					</div>
+						</div>
+					
+						
+					</div>
+				</div>
+				<div class="bg-info">
+
+						<ul class="nav navbar-nav">
+							<a href="#">
+								<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>名称不够用了?中国海军水面主战舰艇的名称，到...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>南半球首艘核潜艇准备开工!排水量6000吨，计划...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>排水量超5万吨，英国大型弹射航母过早退役，马...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>击沉一艘美军的航空母舰需要多少枚导弹或者原子...</li>
+							</a>
+
+						</ul>
+
+					</div>
+				
+				</div>
+				<div class="col-md-4">
+					<div class="nav" style="border-bottom:3px solid #D5D5D5; position: relative;">
+						<ul class="nav navbar-nav">  
+          					<li><span id="title">海战武器</span></li>
+        				</ul>
+        				<ul class="nav navbar-nav navbar-right" >
+          				 <li style="position: absolute; right: 8px;"><span><a href="#">更多>></a> </span></li>
+        				</ul>
+					</div>
+				<div class="card-body">
+					<div class="list">
+						<div class="item">
+							<div class="col-xs-5">
+								<a href="#"><img src="img/h2.jpeg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">神奇的中子弹:只杀伤坦克兵，同时保证坦克毫发无损</a></div>
+						<div class="desc">利刃巨透社·3.0万阅读</div>
+						
+					</div>
+						</div>
+					
+						
+					</div>
+				</div>
+				<div class="bg-info">
+
+						<ul class="nav navbar-nav">
+							<a href="#">
+								<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>被忽略的领域:除了反舰和防空，055具备的这项...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>对抗印度阵风，巴基斯坦或引进歼-10CE，可挂载...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>古代秦国靠什么武器横扫六国?答案从电影中可见...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>越南昔日最大战舰退役，专门对付潜艇却没装1枚...</li>
+							</a>
+
+						</ul>
+
+					</div>
+				
+				</div>
+				
+				<div class="col-md-4">
+					<div class="nav" style="border-bottom:3px solid #D5D5D5; position: relative;">
+						<ul class="nav navbar-nav">  
+          					<li><span id="title">海战武器</span></li>
+        				</ul>
+        				<ul class="nav navbar-nav navbar-right" >
+          				 <li style="position: absolute; right: 8px;"><span><a href="#">更多>></a> </span></li>
+        				</ul>
+					</div>
+				<div class="card-body">
+					<div class="list">
+						<div class="item">
+							<div class="col-xs-5">
+								<a href="#"><img src="img/h3.jpeg"/></a>
+							</div>
+					<div class="col-xs-7">
+						<div class="title"><a href="#">对抗印度阵风，巴基斯坦或引进歼-10CE.可挂载自...</a></div>
+						<div class="desc">军武次位面·9265阅读</div>
+						
+					</div>
+						</div>
+					
+						
+					</div>
+				</div>
+				<div class="bg-info">
+
+						<ul class="nav navbar-nav">
+							<a href="#">
+								<li class="frint-line"><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>咣当一声，美国无人机摔跑道上，“死神”也有今...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>苏德双方投入400万兵力1.3万辆坦克和1.2万架飞...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>170亿战机订单到手，法国终于出了一口气...</li>
+							</a>
+							<a href="#">
+								<li><span class="glyphicon glyphicon-grain " aria-hidden="true"></span>17张照片证明:F-14“雄猫”是美国海军最伟大的...</li>
+							</a>
+
+						</ul>
+
+					</div>
+				
+				</div>
+				
+			</div>
+		</div>
+		
+
+</div>
+
+
+</div>
+
+<div class="footer">
+   Copyright © 1998 - 2021 Tencent. All Rights Reserved
+  </div>
+	</body>
+	
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	
+</html>

@@ -1,0 +1,234 @@
+img{
+	display: block;
+	max-width: 100%;  /*最大宽度不能超过母元素的100%*/
+}
+img,.side-bar-card {
+    border-radius: 5px;
+}
+.navbar-brand {
+  width: 150px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+#toggle-checkbox:checked ~ div {
+  display: block !important;     /*!important践踏一切规则的规则*/
+}
+
+#toggle-label {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  display: none;
+}
+
+#toggle-label:hover {
+  color: #333;
+}
+
+/*调整轮播的自适应宽度*/
+#carousel-example-generic{
+	height: 400px;
+}
+#carousel-example-generic .carousel-inner .item img {
+	display: block;
+	width: 100%;
+	height: 400px;
+}
+
+
+.line{
+  height:0;
+  padding-bottom: 20px;
+  border-bottom:2px solid #D5D5D5;
+  text-align:center;
+  
+}
+.text{
+	font-size: 18px;
+   position:relative;
+  top:10px;
+  background-color:#fff;
+  padding: 0 10px;
+
+}
+a{
+	color: #000000;
+}
+a:hover{
+	color: #1E90FF;
+	text-decoration: none;
+}
+
+.picture{
+	padding-top: 20px;
+}
+.picture img{
+	transition: 450ms;     /*transition代表css3中的过渡，可以使元素从一种样式逐渐改变为另一种的效果*/
+    -webkit-transition: 450ms;
+	-moz-transition: 450ms;
+}
+.picture img:hover{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1); 
+	-o-transform:scale(1.1);
+}
+
+.media-body{
+	padding-top: 15px;
+}
+.frint-line{
+	font-weight: bold;
+}
+.media-body li{
+	font-size: 13px;
+	padding-top:18px;
+	
+}
+
+.bg-info li{
+	font-size: 13px;
+	padding-top:18px;
+}
+.glyphicon-grain{
+	color: red;
+}
+
+.bg-info{
+	height:0;
+  border-bottom:2px solid #1E90FF;
+}
+
+.bg-info #title{
+	
+	font-size: 18px;
+	color: #1E90FF;
+	
+
+}
+.theme{
+	padding-top: 3px;
+}
+
+.items{
+	padding-top: 8px;
+}
+
+
+.media-body .list{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* 内容arrow begin */
+
+
+.row .nav li.active a{
+	border: none;
+	background: transparent;
+	border-bottom:#1E90FF  4px solid ;
+	color: black;
+}
+
+.media{
+	padding-top: 10px;
+}
+
+.lines{
+  height:0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom:2px solid #D5D5D5;
+  text-align:center;
+  
+}
+.media-list{
+	padding-top: 45px;
+}
+
+.media-list li{
+   content: '';
+   position: absolute;
+   width: 2px;
+   height: 20px;
+   background-color: #a4a4a4;
+   top:62px;
+   left:380px;
+}
+
+.new-list-item{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.new-list-item .title {
+    display: block;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 2;
+}
+.new-list-item .info{
+	color: #888;
+}
+.new-list-item .title:hover {
+    color: #337ab7;
+}
+
+.new-list-item img {
+	transition: 500ms;
+    -webkit-transition: 500ms;
+	-moz-transition: 500ms;
+}
+.new-list-item img:hover{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1); 
+	-o-transform:scale(1.1);
+	}
+
+.side-bar-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.card-body .list{
+	padding-top: 10px;
+}
+.card-body .list .item .title {
+  padding-bottom: 5px;
+}
+
+.side-bar-card .card-title,.side-bar-card .card-body .list .item {
+  padding: 8px 15px;
+}
+.side-bar-card .card-body .list .item:hover {
+  background: rgba(0,0,0,.1);
+}
+.card-body .list .item .desc {
+  color: #999;
+}
+.card-body .list .item .title:hover{
+	color: #1E90FF;
+}
+.card-body .list .item .title{
+	display: block;
+	color: #444;
+}
+
+/* 内容arrow end */
+.footer {
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+
+

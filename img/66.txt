@@ -1,0 +1,108 @@
+<div class="mycontent3 hidden-xs hidden-sm">
+				<div class="container-fluid">
+					<div class="text-center">
+						<h1>
+							<img src="img/风车.png" />
+							精彩记录
+						</h1>
+						<span class="text-muted">Wonderful record</span>
+					</div>
+					<div class="row">
+			
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist"> <!-- 导航区 -->
+							<li role="presentation" class="active">
+								<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+									记录1</a>
+							</li>
+							<li role="presentation">
+								<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+									记录2</a>
+							</li>
+							<li role="presentation">
+								<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+									记录3</a>
+							</li>
+							
+						</ul>
+			
+						<!-- Tab panes -->
+						<div class="tab-content"> <!-- 面板区 -->
+							<div role="tabpanel" class="media tab-pane fade in active " id="home">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="img/y1.jpg" width="300px">
+									</a>
+								</div>
+								<div class="media-body">
+							<h2>
+							<p>　　在今年暑假，我和我的家人去了古蔺大黑洞，这是我第一次去古蔺，大黑洞风景区刷新了我对古蔺的了解。我对“大黑洞”这个名称的由来非常好奇，为了满足我的好奇心，我便上网查了查资料:大黑洞景区即为箭竹景区，范围包括箭竹乡全境，包含喀斯特地貌和森林、草场等自然景观以及苗族风情人文景观两大组成部分。命名为“大黑洞景区”而不是“箭竹景区”主要是为了突出景区的核心景点——大黑洞，名称更直观、响亮更具有吸引力。</p>
+							<p>　　就在今天我们坐车来到的了“大黑洞”所在地点——古蔺。我们去买票，卖票小哥哥对我们说可以选择做观光车或高空滑索去到大黑洞洞口，于是我们觉得高空滑索刺激便选择了高空滑索。要想坐高空滑索还得穿过几道门，有爱情门，幸福们等等。我们穿过这几道门后，放眼望去是几条滑索链。工作人员要先称体重，因为体重超过180斤的是不能做这个的。称完体重后激动人心的时刻到了——随着一声尖叫我便被推出去了，我大胆的睁开了眼睛看了看眼下的景色，真是美不胜收啊！</p>
+							<p>　　坐了“川南第一滑”来到大黑洞门口后，检票员检查了票便让我们进来了，进去后看到的是一条“大龙”，洞里非常冷，我们走了很多楼梯，看了很多景点，但让我印象深刻的“时光隧道”，走在“时空隧道”里，有一种莫名其妙的感觉，就好像把所有烦恼都抛之脑后真的在穿越时空一样，这种感觉让我的心情都变得轻松起来。</p>
+							<p>　　参观完“时光隧道”后，我们有来到了以前土匪的会议室，这个会议室非常大，做在椅子上面，脑海里不禁浮现出土匪们在积极讨论的画面。</p>
+							<p>　　走着走着，我们走到了出口，想到今天游玩看到的景象和学到的知识，还真是不虚此行啊！</p>
+						    </h2>
+								</div>
+			
+							</div>
+			
+							<div role="tabpanel" class="tab-pane fade" id="profile">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="img/y2.jpg" width="350px" height="300px">
+									</a>
+								</div>
+								<div class="media-body">
+									<h2>
+										<p>　　5月3日，前往 古蔺 大黑洞。</p>
+							            <p>　　天气热得厉害，到了景区门口，还要换乘电瓶车前往真正的景区入口，现在是个景点都这样操作。经过一晚休息，大人孩子都精神抖擞的样子。</p>
+							            <p>　　开始进入洞内，越往里走越凉快。两个小伙子第一次见到溶洞，光怪陆离的世界让他们很是惊奇。带着小桂圆哥哥体验了一次滑道，也许是我太重了，我们下滑几米就会停下来，小伙子倒是很满意。这个位置上去是一个正对入口的平台，据说是当年土匪的瞭望台，位置高高在上，一切尽收眼底。</p>
+							            <p>　　这个溶洞远比我想象得大，各种暗洞、 通道 像迷宫一般曲曲折折。走到当年土匪的聚会厅，再往后走还有他们的休息睡觉的“房间”，全是乱石垒就铺以树枝，条件不是一般的简陋。出洞前会走到一个巨型溶洞里，这里地面平整得可以扎帐篷，我对兔妈妈说天热在这里举办露营大会，空调都不需要了。</p>
+										<p>　　离开时出了点状况，小桂圆哥哥还想坐一次滑道，没有得到我们允许，他就有些情绪了，一个人闷闷不乐的快步走在最前面，等我们到了检票口，发现他并没有出来，我急忙掉头回去寻找，前后耗费十余分钟，才看见他站在进洞后的那段台阶最高处，因为找不到我们正抹着眼泪。也幸亏他没再往里走，不然找起来就麻烦了。</p>
+										<p>　　在洞口买了雪糕冰激凌安抚小伙子们的情绪，和兔妈妈商量要不要去 叙永 画稿溪再露营一晚，因为天气太热，还是打消了这个念头，直接驱车回家了。</p>
+							        </h2>
+			
+								</div>
+			
+							</div>
+							<div role="tabpanel" class="tab-pane fade" id="messages">
+								<div class="media-left">
+									<a href="#">
+										<img class="media-object" src="img/y3.jpg" width="350px" height="300px">
+									</a>
+								</div>
+								<div class="media-body">
+								<h2>
+								<p>　　大黑洞景区位于泸州市古蔺县箭竹苗族乡团结村，是喀斯特地形地貌的典型代表，由地上的桃花山和苗家上下寨、地下的大黑洞和牛王洞等区域组成。</p>
+								<p>　　绝美的景观、神奇的洞窟世界、苗家的歌舞和艺术在这里世代相传。苗家儿女安居乐业的劳动生活场景、苗族的历史文化和独特风情吸引着八方游客的目光。图为箭竹苗族乡场镇航拍图。</p>
+								<p>　　大黑洞景区是一个天然的喀什特地貌景区，地处四川盆地向云贵高原的过渡地带，属于典型的亚热带季风气候，全年雨量充沛，气候宜人。景区内群山耸峙，森林茂盛，物种丰富，空气清新，是一个天然氧吧。</p>
+								</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+/* 内容3 begin */
+.mycontent3 .row{
+	background: #f0f0f0;
+}
+.mycontent3 .row .nav{
+	font-size: 16px;
+}
+.mycontent3 .row .nav a{
+	color: #999;
+}
+.mycontent3 .row .nav li.active a{
+	border: none;
+	background: transparent;
+	border-bottom:rgba(229, 36, 22)  4px solid ;
+	color: black;
+}
+
+.mycontent3 .row .tab-content h2{
+	padding: 20px;
+	line-height: 18px;
+}
+/* 内容3 end */

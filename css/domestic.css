@@ -1,0 +1,220 @@
+img{
+	display: block;
+	width: 100%;  /*最大宽度不能超过母元素的100%*/
+}
+img,.side-bar-card {
+    border-radius: 5px;
+}
+.navbar-brand {
+  width: 150px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+}
+
+/*轮播样式自适应*/
+#carousel-example-generic{
+	height: 100px;
+}
+#carousel-example-generic .carousel-inner .item img {
+			display: block;
+			width: 100%;
+			height: 100px;		
+}
+.side-bar .list-group-item {
+  border-right: 0;
+  border-left: 0;
+  border-radius: 3px;
+}
+
+.list-group-item.newactive:hover{
+  background-color: #4682B4;
+  color: white;
+}
+
+.side-bar .list-group-item:hover{
+	color: blue;
+	
+}
+.list-group-item.newactive{
+  background:#4682B4;
+  color: white;
+}
+.news-list{
+	margin-top: 15px;
+  padding: 10px 0;
+}
+.news-list .titles{
+	font-size: 25px;
+	color: #1E90FF;
+  font-weight: bold;
+  margin-left: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.picture{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0 3px;
+}
+.new-list-item{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.new-list-item .title {
+    display: block;
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 2;
+}
+.new-list-item .info{
+	color: #888;
+}
+a:hover {
+    text-decoration: none;
+}
+.new-list-item .title:hover {
+    color: #337ab7;
+}
+.side-bar-card {
+  background: rgba(0,0,0,.05);
+  margin-top: 15px;
+  padding: 10px 0;
+}
+
+.side-bar-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-body .list .item .title {
+  padding-bottom: 5px;
+}
+
+.side-bar-card .card-title,.side-bar-card .card-body .list .item {
+  padding: 8px 15px;
+}
+.side-bar-card .card-body .list .item:hover {
+  background: rgba(0,0,0,.1);
+}
+.card-body .list .item .desc {
+  color: #999;
+}
+.card-body .list .item .title:hover{
+	color: #337ab7;
+}
+.card-body .list .item .title{
+	display: block;
+	color: #444;
+}
+.news-content img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.new-list-itemimg img {
+	transition: 500ms;
+    -webkit-transition: 500ms;
+	-moz-transition: 500ms;
+}
+.new-list-item img:hover{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1); 
+	-o-transform:scale(1.1);
+	}
+.card-body .list .item img{
+	transition: 500ms;
+    -webkit-transition: 500ms;
+	-moz-transition: 500ms;
+}
+.card-body .list .item img:hover{
+	-moz-transform:scale(1.1); 
+	-webkit-transform:scale(1.1); 
+	-o-transform:scale(1.1);
+	}
+/*在toggle-checkbox被打勾的时候toggle-checkbox下面的div显示*/
+#toggle-checkbox:checked ~ div {
+  display: block !important;     /*!important践踏一切规则的规则*/
+}
+#toggle-label {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  display: none;
+}
+#toggle-label:hover {
+  color: #333;
+}
+.card-title{
+	background-color:#708090;
+}
+.begin img{
+	margin: 0 auto;
+}
+.centre{
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+/*推荐专题*/
+.glyphicon-play{
+	color: #999;
+	font-size: 18px;
+}
+#title{
+	font-size: 18px;
+	color: #000000;
+	font-weight: 900;
+}
+.news-list .frint-line p{
+	text-align: center;
+	font-size: 15px;
+}
+.news-list a{
+	color: #000000;
+}
+.news-list a:hover{
+	
+	color: blue;
+}
+.photograph{
+	
+	height: 130px;
+}
+.photograph  img{
+	display: block;
+	width: 100%;
+	height: 130px;	
+}
+.glyphicon-forward{
+	color: #999;
+	
+}
+.modal-body a{
+	color: #000000;
+}
+.modal-body a:hover{
+	color: blue;
+}
+.head{
+	padding-top: 20px;
+}
+.substance{
+	padding: 10px;
+}
+.footer {
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
